@@ -1,0 +1,336 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+.home {
+    background-color: #f6fbff;
+    align-items: center;
+    text-align: center;
+    max-height: 1500px;
+    border: 2px;
+}
+
+.bgimg {
+    width: 100%;
+      height: 500px;
+      background-image: url('escrs/Mobile-App-Hero-BG.webp');
+      background-size: 50%;
+      background-position: center;
+      height: 100vh;
+      position: relative;
+      z-index: 1;
+      margin-top: 170px;
+     background-repeat: no-repeat;
+      
+}
+
+#homelanding {
+    align-items: center;
+    /* background-color: #f0f8ff; */
+    color: #405469 ;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: 2;
+    padding-top: 10px;
+}
+a {
+    text-decoration: none;
+    color: #405469;
+    font-weight: 500;
+    text-align: center;
+    
+}
+
+ul {
+    text-align: center;
+    align-items: center;
+    margin-left: 150px;
+    flex: 1;
+}
+
+li {
+    display: inline-flex;
+    margin-left: 30px;
+    align-items: center;
+    
+
+}
+
+li :hover {
+    color: #06a0f1;
+}
+#links {
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 30px;
+    position: fixed;
+    
+}
+
+  
+
+span {
+    padding-top: 15px;
+    margin-left: 150px;
+}
+
+span :hover {
+    color: #06a0f1;
+}
+
+.toplogo {
+    height: 32px;
+    width: 120px;
+    padding-left: 150px;
+    
+}
+#appbtn {
+    color:#405469;
+    border: 2px;
+    border-radius: 25px;
+    background-color: #ffff;
+    font-weight: 600;
+    cursor: pointer;
+    width: 170px;
+    height: 45px;
+    margin-right: 130px;
+    margin-left: 10px;
+    font-size: 15px;
+    text-align: center;
+   
+}
+#appbtn :hover {
+    background-color: #06a0f1 ;
+    color: #eff8ff;
+}
+
+/* Media query for screens smaller than 600px */
+@media (max-width: 600px) {
+    /* Hide the flex items */
+    .flex-item {
+      display: none;
+    }
+  }
+
+#textwidget {
+    padding-top: 100px;
+    /* display: flex; */
+    align-items: center;
+    justify-content: center;
+    height: 200px;
+    
+
+}
+.widget {
+    background-color: #dff1ff;
+    border-radius: 15px;
+    /* height: auto; */
+    margin-left: 550px;
+    margin-right: 550px;
+    align-items: center;
+    /* text-align: center; */
+    font-size: 15px;
+    display: flex;
+    color: #06a0f1;
+    cursor: pointer;
+}
+nav {
+    text-align: center;
+    padding: 8px;
+}
+.New {
+    background-color: #06a0f1;
+    border-radius: 25px;
+    border: 2px;
+    cursor: pointer;
+    height: 30px;
+    width: 50px;
+    color: #dff1ff;
+    font-size: 15px;
+    padding-left: 4px;
+    text-align: center;
+    
+}
+h1 {
+font-size: 75px;
+font-weight: bolder;
+/* justify-content: center; */
+
+/* align-items: center; */
+/* text-align: center; */
+color: #102a43;
+margin: 5px;
+/* display: inline-block; */
+/* padding-top: 20px; */
+position: relative;
+width: 100%;
+height: 300px; /* Adjust height as needed */
+overflow: ;
+/* padding-right: 180px; */
+/* padding-left: 180px; */
+/* height: 200px; */
+    
+}
+.calltext {
+    color: #41beff;
+}
+
+.p1 {
+    
+    font-size: 18px;
+    font-weight: lighter;
+    display: block;
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #7e94a8;
+    
+    
+
+}
+.appleimg {
+    border-radius: 8px;
+    height: 50px;
+    width: 150px;
+    margin-right: 30px;
+    cursor: pointer;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.3s ease;
+    
+}
+
+.appleimg:hover {
+    height: 55px;
+    width: 170px;
+}
+.bg2img {
+    /* background-color: #fffcf9; */
+    margin-top: auto;
+    height: 300px;
+}
+
+.bgimg2 {
+       min-width: 300px;
+          height: 100px;
+          background-image: url('./rescrs/Mobile-App-Hero-BG-2.webp');
+          background-size: cover;
+          background-position: center;
+          height: 100vh;
+          position: relative;
+          z-index: 1;
+          margin-top: 10px;
+          top: 20%;
+          left: 30%;
+          transform: translate(-50%, -50%);
+          
+} 
+.mobileimg {
+    padding: 30px;
+    justify-items: center;
+    align-items: center;
+    height: 600px;
+    width: fit-content;
+    z-index: 1;
+    position: absolute;
+    top: 150%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.revolutioncontainer {
+    
+    background-color: #fefcf9;
+    z-index: 0;
+    position: relative;
+    top: 200px;
+    width: 100%; nn/* Set the width of the container */
+    /* line-height: 200px; */
+    height: 350px;
+    
+    }
+
+.revolbg {
+    width: 350px;
+    height: 550px;
+    background-image: url('escrs/Mobile-App-Hero-BG.webp');
+    background-size: 50%;
+    background-position: center;
+    /* height: 100vh; */
+    position: relative;
+    margin-top: 170px;
+    z-index: 0;
+    padding-top: 30px;
+    top: 150px;
+    border-radius: 15px;
+    right: -280px;
+    
+      
+      
+}
+
+.revolve {
+   /* display: flex; */
+    color: #102a43;
+    /* flex: auto; */
+    font-size: 60px;
+    font-weight: 600;
+    z-index: 1;
+    left: 600px;
+    top: 100px;
+
+}
+
+#revolution {
+    color: #06a0f1;
+    
+
+}
+#h2text {
+    font-size: 25px;
+    color:#405469;
+    left: 60%;
+    text-align: left;
+    left: -150px;
+}
+#learnbtn {
+    border-radius: 25px;
+    border: 2px;
+    background-color: #41beff;
+    height: 50px;
+    width: 150px;
+    color: #dff1ff;
+    font-size: 16px;
+    font-weight: 500;
+    top: -200px;
+    position: relative;
+
+}
+
+#learnbtn :hover {
+    background-color: #06a0f1;
+}
+
+.comimg {
+    padding: 30px;
+    height: 350px;
+    width: 450px;
+    position: relative;
+    z-index: 1;
+    left: 445px;
+    top: -100px;
+}
+.comimg2 {
+    padding: 30px;
+    height: 150px;
+    width: auto;
+    position: relative;
+    z-index: 1;
+    left: -17%;
+    top: -250px;
+}
+
